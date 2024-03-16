@@ -11,7 +11,7 @@ const Blogs = () => {
 
     return (
         <div>
-            <p>I am from Blogs</p>
+            
         </div>
     );
 };
