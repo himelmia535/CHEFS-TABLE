@@ -1,8 +1,10 @@
 import './App.css'
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
-import Blogs from './components/Blogs/Blogs'
 import Recipes from './components/Recipes/Recipes'
+import Blogs from './components/Blogs/Blogs'
+import Adds from './components/Adds/Adds'
+
 
 
 function App() {
@@ -11,8 +13,11 @@ function App() {
     <>
       <Header></Header>
       <Banner></Banner>
-      <Blogs></Blogs>
       <Recipes></Recipes>
+      <div className='md:flex'>
+        <Blogs></Blogs>
+        <Adds></Adds>
+      </div>
     </>
   )
 }
