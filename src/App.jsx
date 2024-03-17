@@ -27,10 +27,6 @@ function App() {
       //   position: toast.POSITION.TOP_CENTER
       // });
     }
-
-
-    // const newWantCook = [...wantCook, blog];
-    // setWantCook(newWantCook);
   }
 
   return (
