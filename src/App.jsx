@@ -5,6 +5,9 @@ import Recipes from './components/Recipes/Recipes'
 import Blogs from './components/Blogs/Blogs'
 import Adds from './components/Adds/Adds'
 import { useState } from 'react'
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 
@@ -13,8 +16,21 @@ function App() {
   const[wantCook, setWantCook] = useState([]);
 
   const handleWantToCook = blog => {
-    const newWantCook = [...wantCook, blog];
-    setWantCook(newWantCook);
+
+    if (!wantCook.includes(blog)) {
+      const newWantCook = [...wantCook, blog];
+      setWantCook(newWantCook);
+    } else {
+      alert('Recipe is already selected!');
+      
+      // toast.error('You have already selected this recipe!', {
+      //   position: toast.POSITION.TOP_CENTER
+      // });
+    }
+
+
+    // const newWantCook = [...wantCook, blog];
+    // setWantCook(newWantCook);
   }
 
   return (
