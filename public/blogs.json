@@ -10,8 +10,8 @@
             "200 g basil leaf",
             "400 g mushroom"
         ],
-        "preparing_time": "30 min",
-        "calories": "320 calories"
+        "preparing_time": "30",
+        "calories": "320"
     },
     {
         "recipe_image": "https://i.ibb.co/nkBZgdj/authentic-italian-pasta.jpg",
@@ -24,8 +24,8 @@
             "200 g tomatoes",
             "100 g onions"
         ],
-        "preparing_time": "45 min",
-        "calories": "420 calories"
+        "preparing_time": "45",
+        "calories": "420"
     },
     {
         "recipe_image": "https://i.ibb.co/g4yb1RM/fried-vegetables-with-sauce-pan.jpg",
@@ -38,8 +38,8 @@
             "50 g soy sauce",
             "30 g sesame oil"
         ],
-        "preparing_time": "25 min",
-        "calories": "250 calories"
+        "preparing_time": "25",
+        "calories": "250"
     },
     {
         "recipe_image": "https://i.ibb.co/1JZH8G6/29142.jpg",
@@ -52,8 +52,8 @@
             "20 g dill",
             "10 g garlic"
         ],
-        "preparing_time": "20 min",
-        "calories": "350 calories"
+        "preparing_time": "20",
+        "calories": "350"
     },
     {
         "recipe_image": "https://i.ibb.co/2dbtpNY/11875.jpg",
@@ -66,8 +66,8 @@
             "50 g parmesan cheese",
             "30 ml Caesar dressing"
         ],
-        "preparing_time": "15 min",
-        "calories": "280 calories"
+        "preparing_time": "15",
+        "calories": "280"
     },
     {
         "recipe_image": "https://i.ibb.co/GQYw6qW/top-view-banana-bun.jpg",
@@ -80,7 +80,7 @@
             "100 g sugar",
             "50 g butter"
         ],
-        "preparing_time": "60 min",
-        "calories": "200 calories"
+        "preparing_time": "60",
+        "calories": "200"
     }
 ]

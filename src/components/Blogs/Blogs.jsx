@@ -13,7 +13,7 @@ const Blogs = () => {
     return (
         <div className="md:w-3/5">
             <h2 className="text-4xl">Recipes: {blogs.length} </h2>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {
                 blogs.map(blog => <Blog key={blog.id} blog={blog}></Blog>)
             }
