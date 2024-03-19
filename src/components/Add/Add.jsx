@@ -9,7 +9,7 @@ const Add = ({add, onPrepare}) => {
                     <h3 className='w-1/4'>{recipe_name}</h3>
                     <h3>{preparing_time} min</h3>
                     <h3>{calories} Calories</h3>
-                    <button className="btn btn-success" onClick={() => onPrepare(add)}>Preparing</button>
+                    <button className="btn btn-success text-white hover:bg-slate-800" onClick={() => onPrepare(add)}>Preparing</button>
             </div>
         </div>
     );

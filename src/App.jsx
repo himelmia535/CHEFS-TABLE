@@ -36,7 +36,7 @@ function App() {
       <Recipes></Recipes>
       <div className='md:flex'>
         <Blogs handleWantToCook={handleWantToCook}></Blogs>
-        <Adds wantCook={wantCook}></Adds>
+        <Adds wantCook={wantCook} setWantCook={setWantCook}></Adds>
       </div>
     </>
   )
